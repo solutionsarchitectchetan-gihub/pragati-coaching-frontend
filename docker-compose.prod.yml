@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        VITE_API_URL: https://api.pragaticoaching.com/api
+    container_name: pragati-frontend-prod
+    ports:
+      - "80:80"
+    restart: always

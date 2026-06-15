@@ -1,0 +1,15 @@
+# Build output
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
