@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        VITE_API_URL: http://localhost:8080/api
+        VITE_API_URL: https://api.pragatitech.in/api
     container_name: pragati-frontend
     ports:
       - "3000:80"
