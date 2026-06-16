@@ -75,11 +75,7 @@ export default function Login() {
             </button>
           </form>
 
-          {/* Demo hint */}
-          <div className="mt-6 p-4 bg-gray-50 rounded-xl text-xs text-gray-500 text-center space-y-1">
-            <p className="font-semibold text-gray-600">Demo Credentials</p>
-            <p>Username: <code className="bg-gray-200 px-1 rounded">admin</code>  Password: <code className="bg-gray-200 px-1 rounded">admin123</code></p>
-          </div>
+
         </div>
 
         <p className="text-center mt-6 text-gray-400 text-sm">
